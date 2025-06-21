@@ -9,7 +9,7 @@ import cookieParser from "cookie-parser"
 
 const app = express()
 app.use(cors({
-  origin: 'https://chat-solution-isoj.vercel.app',
+  origin: 'https://chat-solution-9cef.vercel.app',
   credentials: true // agar cookies bhejni hain to
 }));
 app.use(express.json())
